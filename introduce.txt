@@ -1,0 +1,20 @@
+bài 19: HTML Semantic: Kỹ thuật tạo cấu trúc bảng theo ngữ nghĩa
+
+tiêu đề : Caption
+        Cấu trúc từng cột : table Headder
+- header cell 1 ...
+        table Body 
+- data cell : thông tin ô.
+        table footer : thông tin tổng kết của bảng.
+
+ex 
+<table style="width:600px" border="1">
+    <caption>order #123</caption>
+    <thead>
+        <tr>
+            <th style=width:35%">description</th>
+            <th style=width:35%">quantily</th>
+            <th style=width:35%">description</th>
+            <th style=width:35%">description</th>
+        </tr>
+    </thead>
